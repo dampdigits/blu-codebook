@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+	system("cls");
+	char filename[20] = "Table-";
+	int num, strLen=strlen(filename), size;
+	
+	printf("Multiplication table:\nEnter no. - ");
+	scanf("%d", &num);
+	printf("Enter table size - ");
+	scanf("%d", &size);
+	
+	snprintf(filename+strLen, sizeof(filename)-strLen, "%d%s", num,".txt");
+	
+    FILE *fptr = fopen(filename, "w");
+	
+	for(int i=1; i<=size; i++)
+	{
+		fprintf(fptr, "\n%d x %d = %d", num, i, (num*i));
+	}
+	printf("Table-%d.txt created in current dir", num);
+	
+    return 0;
+}
