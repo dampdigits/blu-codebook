@@ -4,7 +4,7 @@ Welcome to my codebook repository! This is where I document my coding journey an
 
 ## About
 
-This repository contains a collection of programs, projects, and notes that I've created as I learn to code. Most of them were written by me when I was in school so don't mind the poor documentation and indentation. I'll be updating it regularly with new content, so be sure to check back often!
+This repository contains a collection of programs, projects, and notes that I've created as I learn to code. Most of them were written by me when I was in school so don't mind the poor code, documentation and indentation. I'll be updating it regularly with new content, so be sure to check back often!
 
 ## Contents
 
