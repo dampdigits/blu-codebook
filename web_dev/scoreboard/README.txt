@@ -15,3 +15,5 @@ Usage:
 3. Click on the “Reset” button to start a new game.
 
 I hope you enjoy using this scoreboard webpage! Let me know if you have any feedback or suggestions for improvement.
+
+Author: Sk. Sameer Salam (@its_triple_s)
