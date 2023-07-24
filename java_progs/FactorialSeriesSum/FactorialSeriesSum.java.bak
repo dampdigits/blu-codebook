@@ -1,0 +1,28 @@
+import java.util.*;
+
+class FactorialSeriesSum
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a no.");
+		int n=sc.nextInt();
+		double sum=0.0;
+		for(int i=0; i<=n; i++)//to calc each term and add to sum
+		{
+			long f1=1, f2=1;
+			double t=0.0;
+			
+			for(int j=2; j<=i+1; j++)//to calc factorial
+			{
+				if(j<i+1)
+					f1*=j;		//numerator's factorial		(i)!
+				f2*=(j);	//denominator's factorial	(i+1)!
+			}
+			
+			t=f1/f2;
+			sum+=t;
+		}
+		System.out.println("Sum = "+sum);
+    }
+}
