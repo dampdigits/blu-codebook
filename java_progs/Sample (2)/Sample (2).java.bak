@@ -1,0 +1,20 @@
+public class GFG_Q1
+{
+	public static void main(String[] args)
+	{
+		//code
+		Scanner sc=new Scanner(System.in);
+		System.out.print("T=");
+		int T=sc.nextInt();
+		if(T>=1 && T<=10000)
+			for(int i=1; i<=T; i++)
+			{
+				int N=sc.nextInt();
+				System.out.print("N=");
+				if(N>=1 && N<=100000)
+				{
+					;
+				}
+			}
+	}
+}
