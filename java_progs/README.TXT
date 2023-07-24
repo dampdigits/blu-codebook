@@ -1,12 +1,14 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+
+You will find a collection of java programs here, most of them created
+when I was in school and was not so experienced with programming. As a
+result the documentation & indentation is really bad if not the code
+quality itself :) so please don't mind it.
+
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+The programs may prove to be helpful if you are learning the fundamentals.
+
+------------------------------------------------------------------------
+
+AUTHORS: Sk. Sameer Salam (@its_triple_s)
