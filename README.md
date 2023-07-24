@@ -12,13 +12,13 @@ This repository contains a collection of programs, projects, and notes that I've
 - [Projects](./projects)
 - [Notes](./notes)
 
-## Contributing
-
-I'd really appreciate if you make improvements to my programs or add some documentation. If you have any suggestions or feedback, feel free to open an issue or submit a pull request. All contributions are welcome!
-
 ## License
 
 This repository is licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE v-3.0](./LICENSE).
+
+## Contributing
+
+I'd really appreciate if you make improvements to my programs or add some documentation. If you have any suggestions or feedback, feel free to open an issue or submit a pull request. All contributions are welcome!
 
 ## Auhtor
 
