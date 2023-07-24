@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Mobiousfn()
+comment1.params=
+comment1.target=int\ input()
+comment2.params=n
+comment2.target=int\ primefact(int)
+comment3.params=n
+comment3.target=void\ display(int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

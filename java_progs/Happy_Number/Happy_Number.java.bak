@@ -1,0 +1,45 @@
+import java.util.*;
+class Happy_Number//19=(1*1)+(9*9)=1+81=82=(8*8)+(2*2)=64+4=68=(6*6)+(8*8)=36+64=100=(1*1)+(0*0)+(0*0)=1
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a no.");
+        int n=sc.nextInt();
+		
+        if(happy(n))
+        System.out.println("It is a HAPPY NUMBER !!");
+        else
+        System.out.println("It is not a HAPPY NUMBER");
+    }
+	
+    public static boolean happy(int n1)
+    {
+        int sum=0;
+        while(n1!=0)
+        {
+            int rem=n1%10;
+            n1/=10;
+            sum+=(rem*rem);
+        }
+        if(sum>9)
+        {
+            while(sum>9 || n1!=0)
+            {
+                if(n1 == 0)
+                {
+                    n1 = sum;
+                    sum = 0;
+                }
+                r = n1%10;
+                n1/=10;
+                sum+= (r*r);
+            }
+        }
+		
+        if(sum == 1)
+			return true;
+        else
+			return false;
+    }
+}
