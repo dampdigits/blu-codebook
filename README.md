@@ -19,3 +19,7 @@ I'd really appreciate if you make improvements to my programs or add some docume
 ## License
 
 This repository is licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE v-3.0](./LICENSE).
+
+## Auhtor
+
+- [Sk. Sameer Salam (@its_triple_s)](https://github.com/its-triple-s)
