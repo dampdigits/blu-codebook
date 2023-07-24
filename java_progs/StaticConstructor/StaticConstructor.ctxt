@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=StaticConstructor(int,\ int)
+comment1.params=x\ y
+comment1.target=void\ call(int,\ int)
+numComments=2

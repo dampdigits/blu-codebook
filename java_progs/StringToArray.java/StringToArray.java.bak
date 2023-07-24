@@ -1,0 +1,26 @@
+import java.util.*;
+public class StringToArray
+{
+	public static void main (String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.print("T=");
+		int T=in.nextInt();
+		if(T>=1 && T<=10000)
+			for(int i=1; i<=T; i++)
+			{
+				System.out.print("N=");
+				int N=in.nextInt();
+				if(N>=1 && N<=100000)
+				{
+					int flag=0, count=0;
+					System.out.println("Please insert numbers separated by single space: ");
+					String input = in.nextLine();
+					input=input.trim();
+					String[] numbers= input.split(" ");  //build string array using ' ' as delimiter between numbers
+					int A[]= Arrays.asList(numbers).stream().mapToInt(Integer::parseInt).toArray();
+					
+				}
+			}
+	}
+}
