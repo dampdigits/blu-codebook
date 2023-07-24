@@ -1,0 +1,61 @@
+.main {
+	text-align: center;
+}
+
+body {
+	background-image:url("https://www.cric-life.com/wp-content/uploads/2020/10/largest-cricket-grounds-in-india.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+p {
+	margin-top: 25px;
+}
+
+.main h1 {
+	display: inline-block;
+	background-color: #990000;
+	font-family: "Verdana";
+	color: white;
+	border: 4px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 10px 2px #0F0F0F;
+	padding: 15px;
+}
+
+.main table {
+	border: 3px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px 2px #0F0F0F;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 28%;
+	height: 200px;
+}
+
+.backdrop {
+	backdrop-filter: blur(10px);
+}
+
+th {
+	font-family: "Verdana";
+	font-weight: bold;
+	font-size: 1.7em;
+	padding: 10px;
+	color: black;
+}
+
+.score {
+	border: 3px solid black;
+	border-radius: 10px;
+	font-family: "Britannic";
+	font-weight: bold;
+	font-size: 5em;
+	color: yellow;
+}
+
+.main h2 {
+	color: white;
+	font-family: "Verdana";
+}
