@@ -4,7 +4,7 @@ Welcome to my codebook repository! This is where I document my coding journey an
 
 ## About
 
-This repository contains a collection of code snippets, projects, and notes that I've created as I learn to code. I'll be updating it regularly with new content, so be sure to check back often!
+This repository contains a collection of programs, projects, and notes that I've created as I learn to code. Most of them were written by me when I was in school so don't mind the poor documentation and indentation. I'll be updating it regularly with new content, so be sure to check back often!
 
 ## Contents
 
@@ -14,7 +14,7 @@ This repository contains a collection of code snippets, projects, and notes that
 
 ## Contributing
 
-If you have any suggestions or feedback, feel free to open an issue or submit a pull request. All contributions are welcome!
+I'd really appreciate if you make improvements to my programs or add some documentation. If you have any suggestions or feedback, feel free to open an issue or submit a pull request. All contributions are welcome!
 
 ## License
 
