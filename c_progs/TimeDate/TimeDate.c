@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+	system("cls");
+	//method-1
+    time_t tm;
+	time(&tm);
+
+	printf("\nMETHOD-1:\n\nCurrent date/time- %s\n------------------------------------------------------------------------------------",ctime(&tm));
+	
+	//method-2
+	tm=time(NULL);
+	struct tm t=*localtime(&tm);
+	printf("\nMETHOD-2:\n\nCurrent date- %d/%d/%d\n------------------------------------------------------------------------------------",t.tm_mday, t.tm_mon+1, t.tm_year+1900);
+	
+    return 0;
+}

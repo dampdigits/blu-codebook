@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+typedef struct vector{
+	int x,y;
+}vec;
+
+vec addvec(vec v[])
+{
+	vec sum;
+	sum.x=v[0].x + v[1].x;
+	sum.y=v[0].y + v[1].y;
+	
+	return sum;
+}
+
+int main()
+{
+    vec v[2],sum;
+	for (int i=0; i<2; i++)
+	{
+		printf("\nv%d :",i+1);
+		printf("\n\nx- ");
+		scanf("%d",&v[i].x);
+		printf("y- ");
+		scanf("%d",&v[i].y);
+	}
+	sum=addvec(v);
+	printf("\n\nsum:\n\nx- %d\n y- %d",sum.x,sum.y);
+	
+    return 0;
+}

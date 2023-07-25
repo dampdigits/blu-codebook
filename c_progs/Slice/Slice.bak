@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+
+char* slice(char *str, int a, int b)
+{
+	int i;
+	char sliced[20];
+	for(i=0; (i+a)<b; i++)
+	{
+		sliced[i]=str[i+a];
+	}
+	sliced[i]='\0';
+	printf("inside slice() sliced= %s\n", sliced);
+	return sliced;
+}
+
+int main()
+{
+	char str[20];
+	fgets(str,20,stdin);
+	int a,b;
+	printf("slice\n\nfrom: ");
+	scanf("%d",&a);
+	printf("to: ");	
+	scanf("%d",&b);
+	
+	char* s = slice(str,a,b);
+	printf("%s\n", s);
+	
+	return 0;
+}

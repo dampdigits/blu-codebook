@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    system("cls");
+	
+	int marks; char ch;
+	printf("\nEnter marks- ");
+	scanf("%d", &marks);
+	
+	if(marks>-1 && marks<101)
+	{
+		switch(marks/10)
+		{
+			case 10:
+			ch='A';
+			break;
+			// case 10:
+			// case 10:
+			// case 10:
+			// case 10:
+			// case 10:
+			// case 10:
+		}
+		printf("Grade - %c", ch);
+	}
+	else
+		printf("\nWRONG INPUT!");
+	
+    return 0;
+}
