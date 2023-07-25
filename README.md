@@ -22,4 +22,4 @@ I'd really appreciate if you make improvements to my programs or add some docume
 
 ## Auhtor
 
-- [Sk. Sameer Salam (@its_triple_s)](https://github.com/its-triple-s)
+- [Sk. Sameer Salam (@its-triple-s)](https://github.com/its-triple-s)
